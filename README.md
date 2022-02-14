@@ -6,6 +6,14 @@ A repo for learning Bash.
 
 Clone this repo locally
 
+<ol>
+<li> lesson-1.sh </li>
+<li> voters-lesson-2.sh </li>
+<li> lesson-3.sh </li>
+<li> lesson-4-images.sh </li>
+<li> networking/ </li>
+</ol>
+
 ```bash
 
 git clone https://github.com/mtarsel/bash-for-highschool.git

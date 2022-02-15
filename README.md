@@ -24,8 +24,17 @@ The bash scripts have already been made executable. This means the scripts can b
 
 ```bash
 
-(in the repo directory)
-
+#in the repo directory
 ./lesson-1.sh
+
+```
+
+# Python3 Examples
+
+```bash
+
+#from main repo dir
+cd ./python3-examples/
+python3 ./lesson-1.py
 
 ```

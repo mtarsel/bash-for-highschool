@@ -5,12 +5,12 @@ read age
 
 #if age does NOT contain anything but characters 0-9 then exit
 if ! [[ "$age" =~ ^[0-9]+$ ]]; then
-  echo "Sorry integers only"
-	exit 0
+    echo "Sorry integers only"
+    exit 1
 fi
 
 if [ $age -ge 18 ]; then
-	echo Please go vote!
+    echo Please go vote!
 else
-	echo Sorry you cannot vote yet
+    echo Sorry you cannot vote yet
 fi

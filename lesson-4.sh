@@ -19,7 +19,7 @@ done
 
 
 
-backup_dir = "/home/backup-2023/$(date +"%m-%d-%Y")/"
+backup_dir="$(pwd)/backup-2023/$(date +"%m-%d-%Y")/"
 mkdir -p $backup_dir
 
 for bash_script in *.sh; do
